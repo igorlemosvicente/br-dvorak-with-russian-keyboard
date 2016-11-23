@@ -1,0 +1,88 @@
+//Russian layout made to merge with BR Dvorak
+//Igor Lemos Vicente igorlemosvicente@gmail.com
+//
+
+partial alphanumeric_keys
+xkb_symbols "russigor" {
+    name[Group1]= "Russian - Edit by Igor";
+
+// Numeric row
+    key <TLDE> { [   apostrophe,    quotedbl,    Cyrillic_io,    Cyrillic_IO ] };
+    key <AE01> { [            1,    exclam,    onesuperior,    exclamdown ] };
+    key <AE02> { [            2,    at,    twosuperior,    onehalf ] };
+    key <AE03> { [            3,    numbersign,    threesuperior,    threequarters ] };
+    key <AE04> { [            4,    dollar,    sterling,    onequarter ] };
+    key <AE05> { [            5,    percent,    cent,    0x01002030 ] };
+    key <AE06> { [            6,    dead_diaeresis,    notsign,    diaeresis ] };
+    key <AE07> { [            7,    ampersand,    dead_belowdot,    dead_abovedot ] };
+    key <AE08> { [            8,    asterisk,    dead_ogonek,    dead_horn ] };
+    key <AE09> { [            9,    parenleft,    dead_cedilla,    dead_hook ] };
+    key <AE10> { [            0,    parenright,    dead_macron,    dead_breve ] };
+    key <AE11> { [  bracketleft,    braceleft,    ordfeminine,    0x01000326 ] };
+    key <AE12> { [ bracketright,    braceright,    masculine,    dead_abovering ] };
+
+// Upper row
+    key <AD01> { [slash,question,degree,questiondown] };
+    key <AD02> { [comma,less,0x01000329,0x01000313] };
+    key <AD03> { [period,greater,0x01002022,periodcentered] };
+    key <AD04> { [Cyrillic_pe,Cyrillic_PE,thorn,THORN] };
+    key <AD05> { [Cyrillic_ya,Cyrillic_YA,yen,yen]};
+    key <AD06> { [Cyrillic_ef, Cyrillic_EF, leftdoublequotemark, leftsinglequotemark]};
+    key <AD07> { [Cyrillic_ghe,Cyrillic_GHE,rightdoublequotemark,rightsinglequotemark]};
+    key <AD08> { [Cyrillic_softsign,Cyrillic_SOFTSIGN,uparrow,copyright] };
+    key <AD09> { [Cyrillic_er,Cyrillic_ER,registered,registered] };
+    key <AD10> { [Cyrillic_el,Cyrillic_EL,lstroke,    Lstroke ] };
+    key <AD11> { [Cyrillic_ha,Cyrillic_HA,dead_acute,    dead_grave ] };
+    key <AD12> { [ Cyrillic_hardsign,    Cyrillic_HARDSIGN,equal,    plus ] };
+
+// Central row
+    key <AC01> { [      Cyrillic_a,    Cyrillic_A,    ae,    AE ] };
+    key <AC02> { [      Cyrillic_o,    Cyrillic_O,    oe,    OE ] };
+    key <AC03> { [     Cyrillic_ie,    Cyrillic_IE,    EuroSign,    EuroSign ] };
+    key <AC04> { [      Cyrillic_u,    Cyrillic_U,    oslash,    Ooblique ] };
+    key <AC05> { [      Cyrillic_i,    Cyrillic_I,    idotless,    Iabovedot ] };
+    key <AC06> { [     Cyrillic_de,    Cyrillic_DE,    eth,    ETH ] };
+    key <AC07> { [   Cyrillic_yeru,    Cyrillic_YERU,    leftarrow,    paragraph ] };
+    key <AC08> { [     Cyrillic_te,    Cyrillic_TE,    rightarrow,    trademark ] };
+    key <AC09> { [     Cyrillic_en,    Cyrillic_EN,    eng,    ENG ] };
+    key <AC10> { [     Cyrillic_es,    	Cyrillic_ES,    ssharp,    ssharp ] };
+    key <AC11> { [ Cyrillic_shorti,    	Cyrillic_SHORTI,    dead_tilde,    dead_circumflex ] };
+    key <BKSL> { [      Cyrillic_e,	Cyrillic_E, minus,      underscore ] };
+
+// Lower row
+    key <LSGT> { [     Cyrillic_tse,        Cyrillic_TSE,            backslash,              bar ] };
+    key <AB01> { [    semicolon,           colon,           0x01000331,       0x0100032D ] };
+    key <AB02> { [            Cyrillic_yu,Cyrillic_YU,           0x01000259,       0x0100018F ] };
+    key <AB03> { [            Cyrillic_zhe,Cyrillic_ZHE,0x01000292,       0x010001B7 ] };
+    key <AB04> { [            Cyrillic_ka,Cyrillic_KA,guillemotleft,       0x01002039 ] };
+    key <AB05> { [            Cyrillic_che,Cyrillic_CHE,multiply,         division ] };
+    key <AB06> { [            Cyrillic_be,Cyrillic_BE,guillemotright,       0x0100203A ] };
+    key <AB07> { [            Cyrillic_em,Cyrillic_EM,downarrow,mu ] };
+    key <AB08> { [            Cyrillic_sha,Cyrillic_SHA,Cyrillic_shcha,Cyrillic_SHCHA ] };
+    key <AB09> { [            Cyrillic_ve,Cyrillic_VE,doublelowquotemark,singlelowquotemark ] };
+    key <AB10> { [            Cyrillic_ze,Cyrillic_ZE,0x0100201F,0x0100201B ] };
+    key <AB11> { [    backslash,             bar,             currency,        brokenbar ] };
+
+    key <SPCE> { [        space,           space,         nobreakspace,     nobreakspace ] };
+
+// Configures the "," for the numeric keypad
+    include "kpdl(comma)"
+
+// Configures the use of the AltGr key
+    include "level3(ralt_switch)"
+
+
+    key <LSGT> {        [           slash,             bar      ]       };
+    key	<AB01> {	[     Cyrillic_ya,     Cyrillic_YA	]	};
+    key	<AB02> {	[    Cyrillic_che,    Cyrillic_CHE	]	};
+    key	<AB03> {	[     Cyrillic_es,     Cyrillic_ES	]	};
+    key	<AB04> {	[     Cyrillic_em,     Cyrillic_EM	]	};
+    key	<AB05> {	[      Cyrillic_i,	Cyrillic_I	]	};
+    key	<AB06> {	[     Cyrillic_te,     Cyrillic_TE	]	};
+    key	<AB07> {	[Cyrillic_softsign,Cyrillic_SOFTSIGN	]	};
+    key	<AB08> {	[     Cyrillic_be,     Cyrillic_BE	]	};
+    key	<AB09> {	[     Cyrillic_yu,     Cyrillic_YU	]	};
+    key	<AB10> {	[	    slash,	  question	]	};
+
+    key.type[group1]="TWO_LEVEL";
+};
