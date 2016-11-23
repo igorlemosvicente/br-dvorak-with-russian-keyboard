@@ -1,0 +1,11 @@
+<layout>
+  <configItem>
+    <name>ig</name>
+    <shortDescription>IG</shortDescription>
+    <description>Russian (Igor's Edit)</description>
+    <languageList>
+          <iso639Id>rus</iso639Id>
+    </languageList>
+  </configItem>
+  <variantList/>
+</layout>
