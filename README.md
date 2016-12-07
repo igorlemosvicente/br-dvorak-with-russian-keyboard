@@ -24,4 +24,5 @@ Localize `<layoutList>` e cole, logo em baixo, o seguinte código:
 </layout>
 ```
 Salve o arquivo  
-Pronto. Para mudar para o novo teclado, vá em `Botão de desligar > System Settings > Text Entry > Botão '+'` e procure por "Russian (Igor's Edit)". Caso queira utilizar o terminal, basta digitar `setkxbmap ig`.
+Pronto. Para mudar para o novo teclado, vá em `Botão de desligar > System Settings > Text Entry > Botão '+'` e procure por "Russian (Igor's Edit)". Caso queira utilizar o terminal, basta digitar `setkxbmap ig`.  
+Você talvez tenha que reiniciar o computador para funcionar corretamente.
