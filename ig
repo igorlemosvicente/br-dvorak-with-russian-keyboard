@@ -32,25 +32,25 @@ xkb_symbols "russigor" {
     key <AD05> { [       Cyrillic_ya,       Cyrillic_YA ] };
     key <AD06> { [       Cyrillic_ef,       Cyrillic_EF ] };
     key <AD07> { [      Cyrillic_ghe,      Cyrillic_GHE ] };
-    key <AD08> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+    key <AD08> { [        Cyrillic_e,        Cyrillic_E ] };
     key <AD09> { [	 Cyrillic_er,        Cyrillic_ER] };
     key <AD10> { [       Cyrillic_el,       Cyrillic_EL ] };
     key <AD11> { [       Cyrillic_ha,        Cyrillic_HA, dead_acute, dead_grave ] };
     key <AD12> { [ Cyrillic_hardsign,  Cyrillic_HARDSIGN,      equal,       plus ] };
 
 // Central row
-    key <AC01> { [      Cyrillic_a,     Cyrillic_A ] };
-    key <AC02> { [      Cyrillic_o,     Cyrillic_O ] };
-    key <AC03> { [     Cyrillic_ie,    Cyrillic_IE ] };
-    key <AC04> { [      Cyrillic_u,     Cyrillic_U ] };
-    key <AC05> { [      Cyrillic_i,     Cyrillic_I ] };
-    key <AC06> { [     Cyrillic_de,    Cyrillic_DE ] };
-    key <AC07> { [   Cyrillic_yeru,  Cyrillic_YERU ] };
-    key <AC08> { [     Cyrillic_te,    Cyrillic_TE ] };
-    key <AC09> { [     Cyrillic_en,    Cyrillic_EN ] };
-    key <AC10> { [     Cyrillic_es,    Cyrillic_ES ] };
-    key <AC11> { [ Cyrillic_shorti, Cyrillic_SHORTI, dead_tilde, dead_circumflex ] };
-    key <BKSL> { [      Cyrillic_e,      Cyrillic_E,      minus,      underscore ] };
+    key <AC01> { [        Cyrillic_a,       Cyrillic_A ] };
+    key <AC02> { [        Cyrillic_o,       Cyrillic_O ] };
+    key <AC03> { [       Cyrillic_ie,      Cyrillic_IE ] };
+    key <AC04> { [        Cyrillic_u,       Cyrillic_U ] };
+    key <AC05> { [        Cyrillic_i,       Cyrillic_I ] };
+    key <AC06> { [       Cyrillic_de,      Cyrillic_DE ] };
+    key <AC07> { [     Cyrillic_yeru,    Cyrillic_YERU ] };
+    key <AC08> { [       Cyrillic_te,      Cyrillic_TE ] };
+    key <AC09> { [       Cyrillic_en,      Cyrillic_EN ] };
+    key <AC10> { [       Cyrillic_es,      Cyrillic_ES ] };
+    key <AC11> { [   Cyrillic_shorti,   Cyrillic_SHORTI, dead_tilde, dead_circumflex ] };
+    key <BKSL> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,      minus,      underscore ] };
 
 // Lower row
     key <LSGT> { [ Cyrillic_tse,  Cyrillic_TSE,      backslash,            bar ] };

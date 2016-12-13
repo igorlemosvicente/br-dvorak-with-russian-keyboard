@@ -3,7 +3,10 @@ Usando o padrão do BR Dvorak do Ubuntu 14.04, eu editei um outro layout de tecl
 Algumas teclas são definidas de acordo com o som. Por exemplo, 'д' tem som de 'D', por isso ambas estão na mesma posição no teclado.  
 Conforme eu vou aprendendo a língua russa, eu talvez mude o teclado para se adaptar melhor.
 
-![](/img/keyboard-layout.png "Layout") 
+#### Portuguese (Brasil, Dvorak)
+![](/img/keyboard-layout-br.png "Layout") 
+#### Russian (Igor's Edit)
+![](/img/keyboard-layout-ru.png "Layout")
 
 #### Para instalar:  
 Baixe o arquivo `ig`  
